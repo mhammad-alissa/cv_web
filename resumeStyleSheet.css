@@ -1,0 +1,215 @@
+/* The left column Start */
+.columnleft {
+	width:65%;
+	margin:0vw;
+	padding:0vw;
+	float:left;
+	height:125vw;
+}/* left column style */
+
+.nameAndMajorBox {
+	position:absolute;
+	width:69.5%;
+	height:12.5vw;
+	left:30%;
+	margin-top:5vw;
+	background-color:rgb(255, 146, 3);
+	color:white;
+}
+.nameAndMajorBox h1 {
+	font-size:3.25vw;
+	padding-left:14.0625vw;
+}
+.nameAndMajorBox p {
+	font-size:2.875vw;
+	padding-left:16.875vw;
+} /* name and major box style */
+
+#resumeimage {
+	border-radius:50%;
+	border: 0.625vw solid rgb(30,30,30);
+	width:20.625vw;
+	height:20.625vw;
+	position:absolute;
+	margin-left:15.625vw;
+	margin-top:1.25vw;
+}/* Resume Image style*/
+
+.emptyspace {
+	height:21.875vw;
+}/* Empty Space style*/
+
+.leftsubjects {
+	font-size: 2vw;
+	margin-top:3.125vw;
+	margin-left:0vw;
+	width:85%;
+	text-align:right;
+	padding: 0.625vw;
+	padding-right:3.75vw;
+	background-color:rgb(255, 146, 3);
+	color:rgb(30,30,30);
+}/* left subjects style*/
+
+#profilepar {
+	font-size: 1.625vw;
+	margin: 1.25vw 3.75vw;
+	color:rgb(30,30,30);
+}/* Profile Paragraph style*/
+
+/* language table style start*/
+.langtable{
+	border-collapse:collapse;
+	font-size: 1.875vw;
+	width: 37.5vw;
+	margin: 1.25vw 3.75vw;
+}
+.langtable thead tr {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 146, 3);
+    text-align: left;
+}
+.langtable th, .langtable td {
+    padding: 0.75vw 0.9375vw;
+}
+.langtable tbody tr {
+	color: rgb(30,30,30);
+    border-bottom: 0.0625vw solid rgb(255, 146, 3);
+}
+.langtable tbody tr:last-of-type {
+    border-bottom: 0.125vw solid rgb(30, 30, 30);
+}
+/* language table style end*/
+
+/* prof experience style start */
+.profexp {
+	color:rgb(30, 30, 30);
+	margin:1.25vw 5vw;
+}
+.profexp img {
+	margin-top:1.5625vw;
+	float:left;
+	width:3.75vw;
+	height:3.75vw;
+}
+.profexp h3{
+	text-align:center;
+	font-size:1.375vw;
+	float:left;
+	margin-left:1.875vw;
+}
+.profexp p {
+	padding: 1.25vw;
+	margin-left:21.875vw;
+	text-align:left;
+	font-size:1.5vw;
+}
+/* prof experience style start */
+
+#educationimage {
+	float:left;
+	width:3.75vw;
+	height:3.75vw;
+	margin:1.25vw 5vw;
+}/* Education Image style */
+.educationinfo {
+	font-size: 1.625vw;
+	margin:1.25vw 5vw;
+}/* Education Infostyle */
+
+
+/* The left column End */
+
+
+/* The right column Start */
+.columnright{
+	width:35%;
+	margin:0vw;
+	padding:0vw;
+	background-color:rgb(30,30,30);
+	float:left;
+	height:125vw;
+}
+.rightsubjects{
+	text-align:center;
+	padding:1.25vw;
+	border:0.125vw solid rgb(255, 146, 3);
+	margin: 1.875vw;
+	font-size:3.125vw;
+	color:white;
+}
+
+/* contact info syle start */
+.contactinfo{
+	margin:1.25vw 5vw;
+	color:white;
+}
+.contactinfo img {
+	margin-right:1.875vw;
+	margin-top:0.625vw;
+	float:left;
+	height:3.125vw;
+	width:3.125vw;
+}
+.contactinfo a {
+	color:white;
+	font-size:1.875vw;
+	text-decoration:none;
+}
+.contactinfo a:hover {
+	font-size:1.875vw;
+	text-decoration:none;
+	color:rgb(255, 146, 3);
+}
+.contactinfo p{
+	font-size:1.875vw;
+}
+/* contact info syle end */
+
+/*skills style start*/
+.skilllevelout {
+	margin: 0.5vw 1.875vw 1.875vw 1.875vw;
+	border:0.0625vw solid rgb(255, 146, 3);
+	width:80%;
+	height:1.10vw;
+}
+.skilllevelin{
+	background-color:rgb(255, 146, 3);
+	height:100%;
+}
+
+.skillslist li {
+	list-style-type:none;
+	text-align:center;
+	font-size:2vw;
+	color:white;
+}
+/*skills style end*/
+
+/* social media images style start*/
+.socialmedia {
+	margin:0.625vw 0vw 0.625vw 12.5vw;
+}
+.socialmedia a {
+	margin-left:1.25vw;
+	float:left;
+}
+.socialmedia a:hover{
+	opacity:0.5;
+}
+.socialmedia img {
+	height:2.5vw;
+	width:2.5vw;
+}
+/* social media images style end*/
+
+#lastline {
+margin-top:3.75vw;
+width:80%;
+}
+#bottombox {
+	background-color:rgb(255, 146, 3);
+	height: 3.125vw;
+	margin-top:7.9375vw;
+}
+/* The right column End */
